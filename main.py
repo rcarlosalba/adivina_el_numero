@@ -23,6 +23,8 @@ def game(lives):
     if guess == guess_random:
       print(f"Correcto!! el número es: {guess_random}")
       lives = 0
+    if lives == 0: 
+      print("Perdiste, que triste, no hay nadia peor que tu")
 
 if level == "1": 
   game(10)
